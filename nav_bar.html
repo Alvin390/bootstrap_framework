@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <link rel="stylesheet" href="static/css/solo_style.css">
     <link rel="stylesheet" href="static/css/bootstrap.min.css">
     <meta charset="UTF-8">
     <title>Nav_bar</title>
@@ -48,23 +49,74 @@
 </nav>
 <!--End Of Nav bar-->
 <!--Start of Carousel-->
-<div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+<div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
   <div class="carousel-inner">
     <div class="carousel-item active">
-      <img src="static/images/tokyo.jpeg" class="d-block w-100" alt="..." width="1000" height="1000">
+      <img src="static/images/pexels-1.jpg" class="d-block w-100" alt="..." width="1000" height="600">
     </div>
     <div class="carousel-item">
-      <img src="static/images/test%205.jpeg" class="d-block w-100" alt="..." width="1000" height="1000">
+      <img src="static/images/pexels-2.jpg" class="d-block w-100" alt="..." width="1000" height="600">
     </div>
     <div class="carousel-item">
-      <img src="static/images/testing%209.jpeg" class="d-block w-100" alt="..." width="1000" height="1000">
+      <img src="static/images/pexels-3.jpg" class="d-block w-100" alt="..." width="1000" height="600">
     </div>
-      <div class="carousel-item">
-      <img src="static/images/testing%2013.jpeg" class="d-block w-100" alt="..." width="1000" height="1000">
+  </div>
+  <div class="carousel-item">
+      <img src="static/images/pexels-4.jpg" class="d-block w-100" alt="..." width="1000" height="600">
+    </div>
+  </div>
+<div class="carousel-item">
+      <img src="static/images/pexels-5.jpg" class="d-block w-100" alt="..." width="1000" height="600">
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+<!--End of Carousel-->
+<!--Start Of Cards-->
+<div class="container">
+  <div class="row">
+    <div class="col-4">
+      <div class="card" style="width: 18rem;">
+  <img src="static/images/safcom-1.png" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title" style="color: green"><div class="title-card_1">Tariffs</div></h5>
+    <p class="card-text">Enjoy flexible talk time with your friends and family and know how much talk time you can get at your budget.</p>
+    <a href="#" class="btn btn-success" id="button-round_1">Explore Offers</a>
+  </div>
+</div>
+    </div>
+    <div class="col-4">
+      <div class="card" style="width: 18rem;">
+  <img src="static/images/safcom-2.png" class="card-img-top" alt="...">
+  <div class="card-body">
+      <h5 class="card-title" style="color: green"><div class="title-card_3">Safaricom VoLTE</div></h5>
+    <p class="card-text">Enjoy ultra HD quality voice calls and videos with sound so clear, it’ll feel like you’re right next to your family and friends.</p>
+    <a href="#" class="btn btn-success" id="button-round_2">Find Out More</a>
     </div>
   </div>
 </div>
-<!--End of Carousel-->
+    <div class="col-4">
+      <div class="card" style="width: 18rem;">
+  <img src="static/images/safcom-3.jpg" class="card-img-top" alt="...">
+  <div class="card-body">
+
+    <h5 class="card-title" style="color: green"><div class="title-card_3">Reverse Call</div></h5>
+    <p class="card-text">A service that allows a customer to make a call with or without airtime and the receiver of the call pays on the caller’s behalf.</p>
+    <a href="#" class="btn btn-success" id="button-round_3">Learn More</a>
+    </div>
+  </div>
+</div>
+
+  </div>
+</div>
+<!--End Of Cards-->
 <script src="static/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
