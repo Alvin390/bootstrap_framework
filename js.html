@@ -30,6 +30,13 @@
 <body>
 <h1>WELCOME TO JAVASCRIPT BASICS</h1>
 <P>Click the button below to see what happens</P>
-<button>Click Me Please !!!</button>
+<button id="button_1">Click Me Please !!!</button>
+<script >
+  const button=document.getElementById("button_1")
+  button.addEventListener("click", function (){
+    alert("Hello, Good Work")
+  });
+
+</script>
 </body>
 </html>
