@@ -1,0 +1,63 @@
+#button-round_1{
+    border-radius: 25px;
+    cursor: pointer;
+}#button-round_2{
+    border-radius: 25px;
+    cursor: pointer;
+}#button-round_3{
+    border-radius: 25px;
+    cursor: pointer;
+}
+.card img{
+    border-radius: 20px;
+}
+.card{
+    border-radius: 20px;
+    adding-right: 0;
+}
+.card-body{
+    border-radius: 20px;
+    padding-right: 0;
+}
+.col-4{
+    border-radius: 20px;
+    margin: 0;
+    padding-right: 0;
+}
+.container{
+    border-radius: 25px;
+    margin: 0;
+    padding-right: 0;
+    justify-items: center;
+}
+.title-card_1{
+    color: green;
+}
+
+.title-card_1:hover{
+    color: black;
+    cursor: default;
+}
+.title-card_2{
+    color: green;
+}
+.title-card_2:hover{
+    color: black;
+    cursor: default;
+}
+.title-card_3{
+    color: green;
+}
+.title-card_3:hover{
+    color: black;
+    cursor: default;
+}
+
+.navbar a{
+    display: block;
+
+}
+
+.navbar a:hover{
+    background-color: gray;
+}
